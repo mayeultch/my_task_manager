@@ -1,0 +1,3 @@
+Superutilisateur django: tchiakpemayeul ; mayeul
+
+Utilisateur simple: Tchiakpe ; axcgj@epitech22

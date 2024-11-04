@@ -1,0 +1,185 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Task List Styles */
+ul.task-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.task-list li {
+    background-color: #f0f5f5;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.task-list li:hover {
+    transform: scale(1.02);
+}
+
+.task-list strong {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.task-list p {
+    margin: 8px 0;
+}
+
+.task-list a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #4CAF50;
+    transition: color 0.2s;
+}
+
+.task-list a:hover {
+    color: #2e7d32;
+}
+
+/* Button Styles */
+button, .button, input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover, .button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], input[type="datetime-local"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fdfdfd;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, input[type="datetime-local"]:focus, textarea:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Specific Page Styles */
+
+/* Create Task Page */
+.create-task h1 {
+    color: #4CAF50;
+}
+
+.create-task form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Edit Task Page */
+.edit-task h1 {
+    color: #FFA000;
+}
+
+.edit-task form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Delete Task Page */
+.delete-task h1 {
+    color: #D32F2F;
+}
+
+.delete-task .confirm-message {
+    font-size: 1.1em;
+    color: #333;
+    margin: 20px 0;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #e0e0e0;
+}
